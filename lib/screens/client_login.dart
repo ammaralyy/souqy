@@ -48,8 +48,6 @@ class _ClientLoginState extends State<ClientLogin> {
     }
   }
 
-
-
   TextEditingController _email = TextEditingController();
   TextEditingController _password = TextEditingController();
 

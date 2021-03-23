@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Online Store',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
+        primarySwatch: Colors.yellow,
       ),
       initialRoute: ClientLogin.routeName,
       routes: {

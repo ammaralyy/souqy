@@ -67,7 +67,7 @@ class _HomePageScreenState extends State<HomePageScreen> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.1,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.yellow,
         title: Text(
           'Online Store',
         ),

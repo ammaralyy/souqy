@@ -64,7 +64,7 @@ class _ProductDetailsState extends State<ProductDetails> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.1,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.yellow,
         title: InkWell(
           onTap: () {
             Navigator.push(context,
@@ -304,7 +304,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                   onPressed: () {
 
                   },
-                  color: Colors.deepPurpleAccent,
+                  color: Colors.yellow,
                   textColor: Colors.white,
                   elevation: 0.2,
                   child: Text(
@@ -316,21 +316,21 @@ class _ProductDetailsState extends State<ProductDetails> {
               IconButton(
                 icon: Icon(
                   Icons.shopping_cart,
-                  color: Colors.deepPurpleAccent,
+                  color: Colors.yellow,
                 ),
                 onPressed: () {},
               ),
               IconButton(
                 icon: Icon(
                   Icons.favorite_border,
-                  color: Colors.deepPurpleAccent,
+                  color: Colors.yellow,
                 ),
                 onPressed: () {},
               )
             ],
           ),
           Divider(
-            color: Colors.deepPurpleAccent,
+            color: Colors.yellow,
           ),
           ListTile(
             title: Text(

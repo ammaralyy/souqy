@@ -97,7 +97,7 @@ class _CartItemsState extends State<CartItems> {
                           padding: const EdgeInsets.all(4.0),
                           child: Text(
                             items[index].size,
-                            style: TextStyle(color: Colors.deepPurple[900]),
+                            style: TextStyle(color: Colors.yellow),
                           ),
                         ),
                         Padding(
@@ -109,7 +109,7 @@ class _CartItemsState extends State<CartItems> {
                           padding: const EdgeInsets.all(4.0),
                           child: Text(
                             items[index].color,
-                            style: TextStyle(color: Colors.deepPurple),
+                            style: TextStyle(color: Colors.yellow),
                           ),
                         ),
                       ],
@@ -121,7 +121,7 @@ class _CartItemsState extends State<CartItems> {
                         style: TextStyle(
                           fontSize: 17.0,
                           fontWeight: FontWeight.bold,
-                          color: Colors.deepPurple[900],
+                          color: Colors.yellow,
                         ),
                       ),
                     ),

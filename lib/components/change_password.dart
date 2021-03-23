@@ -125,7 +125,7 @@ class _ChangePasswordState extends State<ChangePassword> {
                       }
 
                     },
-                    color: Colors.deepPurple,
+                    color: Colors.yellow,
                     textColor: Colors.white,
                   ),
                   alignment: Alignment.center,

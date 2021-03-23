@@ -42,7 +42,7 @@ class _AboutState extends State<About> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.1,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.yellow,
         title: Text(
           'About Us',
         ),
@@ -70,41 +70,41 @@ class _AboutState extends State<About> {
             leading: Image(image: AssetImage('assets/images/a.jpg')),
             title: Text(myName,
                 style: TextStyle(
-                    color: Colors.deepPurple,
+                    color: Colors.yellow,
                     fontSize: 20,
                     fontWeight: FontWeight.bold)),
             subtitle: Text(myEmail,
-                style: TextStyle(color: Colors.deepPurple)),
+                style: TextStyle(color: Colors.yellow)),
           ),
           ListTile(
             leading: Icon(Icons.phone_callback),
             title: Text('Phone Number',
                 style: TextStyle(
-                    color: Colors.deepPurple,
+                    color: Colors.yellow,
                     fontSize: 20,
                     fontWeight: FontWeight.bold)),
             subtitle: Text('+201093808655',
-                style: TextStyle(color: Colors.deepPurple)),
+                style: TextStyle(color: Colors.yellow)),
           ),
           ListTile(
             leading: Icon(Icons.message),
             title: Text('Email',
                 style: TextStyle(
-                    color: Colors.deepPurple,
+                    color: Colors.yellow,
                     fontSize: 20,
                     fontWeight: FontWeight.bold)),
             subtitle: Text(myEmail,
-                style: TextStyle(color: Colors.deepPurple)),
+                style: TextStyle(color: Colors.yellow)),
           ),
           ListTile(
             leading: Icon(Icons.person),
             title: Text('GitHub',
                 style: TextStyle(
-                    color: Colors.deepPurple,
+                    color: Colors.yellow,
                     fontSize: 20,
                     fontWeight: FontWeight.bold)),
             subtitle:
-                Text(myName, style: TextStyle(color: Colors.deepPurple)),
+                Text(myName, style: TextStyle(color: Colors.yellow)),
           ),
         ],
       ),

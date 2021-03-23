@@ -58,7 +58,7 @@ class ChangeLocation extends StatelessWidget {
                   child: RaisedButton(
                     child: Text('Save Location'),
                     onPressed: () {},
-                    color: Colors.deepPurple,
+                    color: Colors.yellow,
                     textColor: Colors.white,
                   ),
                   alignment: Alignment.center,

@@ -29,7 +29,7 @@ class _SettingPageState extends State<SettingPage> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.1,
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.yellow,
         title: Text('Settings'),
         actions: <Widget>[
           IconButton(
@@ -50,7 +50,7 @@ class _SettingPageState extends State<SettingPage> {
             style: TextStyle(
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
-              color: Colors.deepPurple,
+              color: Colors.yellow,
             ),
           ),
           RadioListTile(
@@ -80,7 +80,7 @@ class _SettingPageState extends State<SettingPage> {
             style: TextStyle(
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
-              color: Colors.deepPurple,
+              color: Colors.yellow,
             ),
           ),
           RadioListTile(
@@ -110,12 +110,12 @@ class _SettingPageState extends State<SettingPage> {
             style: TextStyle(
               fontSize: 20.0,
               fontWeight: FontWeight.bold,
-              color: Colors.deepPurple,
+              color: Colors.yellow,
             ),
           ),
           SwitchListTile(
             dense: true,
-            activeColor: Colors.deepPurple,
+            activeColor: Colors.yellow,
             contentPadding: const EdgeInsets.all(8.0),
             value: true,
             title:
@@ -124,7 +124,7 @@ class _SettingPageState extends State<SettingPage> {
           ),
           SwitchListTile(
             dense: true,
-            activeColor: Colors.deepPurple,
+            activeColor: Colors.yellow,
             contentPadding: const EdgeInsets.all(8.0),
             value: true,
             title: Text("Recive Offers Notification",
@@ -133,7 +133,7 @@ class _SettingPageState extends State<SettingPage> {
           ),
           SwitchListTile(
             dense: true,
-            activeColor: Colors.deepPurple,
+            activeColor: Colors.yellow,
             contentPadding: const EdgeInsets.all(8.0),
             value: true,
             title: Text("Recive Updates Notification",

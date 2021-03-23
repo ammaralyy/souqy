@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../user_db.dart';
 
@@ -43,6 +44,10 @@ class _AllUsersState extends State<AllUsers> {
                       key: Key('${snapShot.data[index].id}'),
                       onDismissed: (direction) async{
                         await dataBaseHandler.deleteUser(snapShot.data[index].id);
+
+                        SharedPreferences pref = await SharedPreferences.getInstance();
+                        await pref.remove(snapShot.data[index].email);
+
                       },
                       child: ListTile(
                         title: Text(snapShot.data[index].nikeName),

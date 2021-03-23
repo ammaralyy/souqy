@@ -107,7 +107,7 @@ class _EditNameState extends State<EditName> {
 
                       }
                     },
-                    color: Colors.deepPurple,
+                    color: Colors.yellow,
                     textColor: Colors.white,
                   ),
                   alignment: Alignment.center,

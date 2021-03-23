@@ -78,7 +78,7 @@ class _DrawerComponentState extends State<DrawerComponent> {
               ),
             ),
             decoration: BoxDecoration(
-              color: Colors.deepPurple,
+              color: Colors.yellow,
             ),
           ),
           InkWell(
@@ -91,7 +91,7 @@ class _DrawerComponentState extends State<DrawerComponent> {
                   style: TextStyle(color: Color(fC), fontSize: fS)),
               leading: Icon(
                 Icons.home,
-                color: Colors.deepPurple,
+                color: Colors.yellow,
               ),
             ),
           ),
@@ -103,7 +103,7 @@ class _DrawerComponentState extends State<DrawerComponent> {
             child: ListTile(
               title: Text('My Account',
                   style: TextStyle(color: Color(fC), fontSize: fS)),
-              leading: Icon(Icons.person, color: Colors.deepPurple),
+              leading: Icon(Icons.person, color: Colors.yellow),
             ),
           ),
           InkWell(
@@ -114,7 +114,7 @@ class _DrawerComponentState extends State<DrawerComponent> {
             child: ListTile(
               title: Text('My Orders',
                   style: TextStyle(color: Color(fC), fontSize: fS)),
-              leading: Icon(Icons.shopping_basket, color: Colors.deepPurple),
+              leading: Icon(Icons.shopping_basket, color: Colors.yellow),
             ),
           ),
           InkWell(
@@ -127,7 +127,7 @@ class _DrawerComponentState extends State<DrawerComponent> {
                   style: TextStyle(color: Color(fC), fontSize: fS)),
               leading: Icon(
                 Icons.shopping_cart,
-                color: Colors.deepPurple,
+                color: Colors.yellow,
               ),
             ),
           ),

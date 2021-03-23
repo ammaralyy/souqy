@@ -92,7 +92,7 @@ class _MyAccountState extends State<MyAccount> {
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10.0)),
                   margin: const EdgeInsets.all(8.0),
-                  color: Colors.deepPurple,
+                  color: Colors.yellow,
                   child: ListTile(
                     onTap: () {
                       Navigator.pushNamed(
@@ -119,7 +119,7 @@ class _MyAccountState extends State<MyAccount> {
                       ListTile(
                         leading: Icon(
                           Icons.lock_outline,
-                          color: Colors.deepPurple,
+                          color: Colors.yellow,
                         ),
                         title: Text('Change Passwod'),
                         trailing: Icon(Icons.keyboard_arrow_right),
@@ -137,7 +137,7 @@ class _MyAccountState extends State<MyAccount> {
                       ListTile(
                         leading: Icon(
                           Icons.language,
-                          color: Colors.deepPurple,
+                          color: Colors.yellow,
                         ),
                         title: Text('Change Language'),
                         trailing: Icon(Icons.keyboard_arrow_right),
@@ -154,7 +154,7 @@ class _MyAccountState extends State<MyAccount> {
                       ListTile(
                         leading: Icon(
                           Icons.location_city,
-                          color: Colors.deepPurple,
+                          color: Colors.yellow,
                         ),
                         title: Text('Change Location'),
                         trailing: Icon(Icons.keyboard_arrow_right),
