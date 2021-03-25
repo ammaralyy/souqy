@@ -3,8 +3,10 @@ import 'package:flutter/material.dart';
 import 'item.dart';
 
 class CartFunctions extends ChangeNotifier {
+
   List<Item> _items = [];
   double _totalPrice = 0.0;
+
   void add(Item item) {
     _items.add(item);
     _totalPrice += item.price;

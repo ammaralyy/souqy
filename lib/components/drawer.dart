@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:souqy/screens/CartItems.dart';
 import 'package:souqy/screens/CheckOutPage.dart';
+import 'package:souqy/screens/client_login.dart';
 import 'package:souqy/screens/contact_us.dart';
 import 'package:souqy/screens/home_screen.dart';
 import 'package:souqy/screens/my_account.dart';
@@ -155,6 +156,17 @@ class _DrawerComponentState extends State<DrawerComponent> {
               title: Text('About',
                   style: TextStyle(color: Color(fC), fontSize: fS)),
               leading: Icon(Icons.help, color: Colors.blueGrey[600]),
+            ),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.push(
+                  context, MaterialPageRoute(builder: (context) => ClientLogin()));
+            },
+            child: ListTile(
+              title: Text('logout',
+                  style: TextStyle(color: Color(fC), fontSize: fS)),
+              leading: Icon(Icons.logout, color: Colors.blueGrey[600]),
             ),
           ),
         ],
